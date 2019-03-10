@@ -1,0 +1,24 @@
+{
+    "name": "AhmadWaleed/value-objects",
+    "description": "Library for collection on value objects used in daily life programing",
+    "type": "library",
+    "authors": [
+        {
+            "name": "AhmadWaleed",
+            "email": "ahmed_waleed1@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AhmadWaleed\\ValueObjects\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AhmedWaleed\\ValueObjects\\Tests\\": "tests/"
+        }
+    }
+}
